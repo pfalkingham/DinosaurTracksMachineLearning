@@ -1,5 +1,5 @@
 **Project Overview**
-- **Purpose:** This repo contains a small workflow to run the machine-learning approach used in Lallensack, Romilio & Falkingham (2022) to predict affinities from dinosaur track silhouettes.
+- **Purpose:** This repo contains a small workflow to run the machine-learning approach used in [Lallensack, Romilio & Falkingham (2022)](https://royalsocietypublishing.org/rsif/article/19/196/20220588/90247/A-machine-learning-approach-for-the-discrimination) to predict affinities from dinosaur track silhouettes.
 
 **Files**
 - **`convertSihlouettes.ps1`**: PowerShell/ImageMagick script to standardize silhouette PNGs (trim, pad to square, resize, threshold).
@@ -43,9 +43,11 @@ python predict.py
 - If no images are processed, ensure PNG files are placed in the `predict/` folder and have the `.png` extension.
 
 **Citations / Credit**
-- If you use this code or model in published work, please cite: Lallensack, Romilio & Falkingham (2022) and acknowledge the model authors.
+- If you use this code or model in published work, please cite: [Lallensack, Romilio & Falkingham (2022)](https://royalsocietypublishing.org/rsif/article/19/196/20220588/90247/A-machine-learning-approach-for-the-discrimination) and acknowledge the model authors.
+`Jens N. Lallensack, Anthony Romilio, Peter L. Falkingham; A machine learning approach for the discrimination of theropod and ornithischian dinosaur tracks. J R Soc Interface 1 November 2022; 19 (196): 20220588. https://doi.org/10.1098/rsif.2022.0588`
 
 **Notes & Safety**
 - This repo provides convenience scripts to run a pre-trained model. The model's predictions are probabilistic estimates and should be used with caution and expert interpretation.
+
 
 
